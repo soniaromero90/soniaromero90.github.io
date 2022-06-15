@@ -2,3 +2,40 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
 }
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+nav ul li a:link, a:visited {
+    color: #577775;
+    text-decoration:none ;
+    background-color: #DBE4E0;
+    border: 2px solid #577775;
+   
+}
+nav ul li a:hover, a:active {
+    color: white;
+    text-decoration: none;
+    background-color:#E7B563;
+    border: 2px solid #E8D3B5;
+
+}
+
+header, footer {
+    background-color: #DBE4E0;
+}
+.site-title {
+    color: #577775;
+}
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+.hobbies-list {
+    list-style-type:square;
+}
+.hobbies-list li:nth-child(odd) {
+    background-color: #E7B563;
+}
