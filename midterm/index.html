@@ -34,25 +34,26 @@
         </article>
         <h3>Contact to learn more</h3>
         <form action="" method="post">
-            <label for="name">Your Name</label>
+            <label for="name"">Your Name</label>
             <input type="text" name="name" id="name">
 
             <label for="email">Your Email</label>
             <input type="text" name="email" id="email">
 
-            <label for="message">Your message</label>
+            <label for="message">Your Message</label>
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
             <label for="visit">Would you like to visit the starfish?</label>
-
+            <div class="visit-options">
                 <label for="yes">Yes</label>
-                <input type="radio" name="visitstarfish" id="yes" checked>
+                <input type="radio" name="visit" id="yes" checked>
                 <label for="no">No</label>
-                <input type="radio" name="visitstarfish" id="no">
+                <input type="radio" name="visit" id="no">
                 <label for="maybe">Maybe</label>
-                <input type="radio" name="visitstarfish" id="maybe">
+                <input type="radio" name="visit" id="maybe">
+            </div>
 
-                <button type="submit">SEND</button>
+                <button type="button " formmethod="post">Send</button>
         </form>
         <footer>
             <p>&copy; Lone Starfish.</p>
