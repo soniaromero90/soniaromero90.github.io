@@ -1,5 +1,5 @@
 
-/* Start of my CSS Style */
+/* everything is inside a wrapper to control the width */
 
 .wrapper {
     max-width: 800px;
@@ -22,13 +22,14 @@ body {
     background-color: #A9D4CF;
 }
 
+/* The heading is centred inside a hero image */
+
 h1 {
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 2.5rem;
     color: white;
 
     position: absolute;
-    top: 30%;
+    top: 33%;
     width: 100%;
     text-align: center;
 }
@@ -36,13 +37,13 @@ h1 {
 header {
     position: relative;
     max-width: 800px;
-    margin: 0 auto;
 }
 
 header img {
     width: 100%;
 }
 
+/* The navigation menu is displayed in a horizontal line */
 
 nav {
     display: inline;
@@ -55,23 +56,28 @@ nav ul li {
     float: left;
     text-align: center;
 
-    padding: 10px 0 10px 0;
+    padding: 15px 0px 15px 0px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 nav ul li a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: black;
-
 
     text-transform: uppercase;
     list-style-type: none;
     text-decoration: none;
 }
 
+/* The menu items are separated with a black vertical line */
+
 nav ul li:first-child, nav ul li:nth-child(2) {
     border-right: 1px solid black;
 }
 
+/* Clearfix helps elements not being displayed in float */
 
 .clearfix:after {
     visibility: hidden;
@@ -81,10 +87,14 @@ nav ul li:first-child, nav ul li:nth-child(2) {
     clear: both;
     height: 0;
   }
+
   
 h2 {
     font-size: 1.5rem;
+    font-weight: 100;
 }
+
+/* The article text is wrapping the image to the left */
 
 article {
     margin-top: 10px;
@@ -96,18 +106,23 @@ article {
 article img {
     float: left;
 
-    max-width: 30%;
-    padding: 0 20px 20px 0;
+    max-width: 33%;
+    padding: 15px 15px 15px 0;
   }
+
+/* Below the information there is a list of facts using bulletpoints */
 
 h3 {
     font-size: 1.25rem;
+    font-weight: 100;
 }
 
 article ul li {
     list-style:disc;
-    margin: 0 0 0 30px;
+
 }
+
+/* Contact form wrapped in a black border line */
 
 form {
     border-style: solid ;
@@ -115,37 +130,38 @@ form {
     padding: 20px;
 }
 
-form input[type=text] {
-    width: 100%;
-    padding: 10px 10px;
-    margin: 10px 0 10px 0;
-    box-sizing: border-box;
-}
-
-form textarea {
-    width: 100%;
-    padding: 10px 10px;
-    margin: 10px 0 10px 0;
-    box-sizing: border-box;
-}
-
 label {
     display: inline-block;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
+form input[type=text] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
 button {
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: #D4E8E7;
 
     text-transform: uppercase;
-    display: block;
+    display: inline-block;
 
-    padding: 10px;
+    padding: 15px;
     margin-top: 15px;
 }
 
+/* Copyright information at the bottom of the page */
+
 footer p {
     text-align: right;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 30px 0;
 }
