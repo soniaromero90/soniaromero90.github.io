@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/4066f5e5ca.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+
+
     <title>Three Star Media - Sonia Romero</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <header>
-            <img src="images/logo.png" alt="Three Star Media logo">
+    <!-- The logo, menu and search bar will be displayed vertically in mobile and horizontally in desktop size -->
+
+     <header>
+            <img src="images/logo.png" alt="Logo of Three Star Media">
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -25,19 +33,25 @@
                     <button type="submit">Submit</button>
                 </form>
             </div>
-            <div class="hero">
-                <div>
-                    <h1>Welcome to Three Star Media</h1>
+     </header>
+
+     <!-- This section will be a hero image with title and call to action -->
+
+        <section class="hero">
+            <div class="wrapper">
+                <h1>Welcome to Three Star Media</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat totam, fugit fugiat nemo aut quo repudiandae nesciunt sed corrupti cum rem aliquid necessitatibus amet ipsam quibusdam. Dolor maiores illum modi?
                     </p>
-                    <a href="#">Connect with us</a>
-                </div>
-            </div>
-        </header>
+                <a href="#">Connect with us</a>
+             </div>
+        </section>
+    
+        <!-- Desktop version: A section with an image on the left and text on the right. On mobile will be displayed vertically -->
+
         <main>
-            <div class="about">
-                <img src="images/about-us.jpg">
+            <section class="about">
+                <img src="images/about-us.jpg" alt="Photo of an office space">
                 <h2>About Us</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt nihil officiis soluta delectus quam, aut, necessitatibus quasi cupiditate fugit nulla qui dicta! Iure dignissimos et recusandae distinctio, tempore quod.
@@ -45,48 +59,51 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt nihil officiis soluta delectus quam, aut, necessitatibus quasi cupiditate fugit nulla qui dicta! Iure dignissimos et recusandae distinctio, tempore quod.
                 </p>              
-            </div>
-            <div class="services">
+            </section>
+
+            <!-- A grid displaying two services in one row, and three on the next row. On mobile will be displayed vertically -->
+
+            <section class="services">
                 <h2>Our Services</h2>
                 <div>
-                    <img src="images/digital.jpg">
+                    <img src="images/digital.jpg" alt="Photo of a person using a laptop and smartphone">
                     <h3>Digital Transformation</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga atque quos id harum consectetur assumenda dolorum beatae dolores animi error suscipit, a earum eum quidem, deleniti, voluptatem accusamus perferendis.
                     </p>
-                    <a href="#">Digital Plans</a>
+                    <a href="#">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <div>
-                    <img src="images/marketing.jpg">
+                    <img src="images/marketing.jpg" alt="Photo of a laptop with a graph">
                     <h3>Marketing</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga atque quos id harum consectetur assumenda dolorum beatae dolores animi error suscipit, a earum eum quidem, deleniti, voluptatem accusamus perferendis.
                     </p>
-                    <a href="#">Marketing Plans</a>
+                    <a href="#">Marketing Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <div>
-                    <img src="images/video.jpg">
+                    <img src="images/video.jpg" alt="Photo of a person holding a phone with a Youtube logo">
                     <h3>Video Production</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga atque quos id harum consectetur assumenda dolorum beatae dolores animi error suscipit, a earum eum quidem, deleniti, voluptatem accusamus perferendis.
                     </p>
-                    <a href="#">Video Plans</a>
+                    <a href="#">Video Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <div>
-                    <img src="images/web.jpg">
+                    <img src="images/web.jpg" alt="Photo of a phone in a desk with the Instagram app on screen">
                     <h3>Web Development</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga atque quos id harum consectetur assumenda dolorum beatae dolores animi error suscipit, a earum eum quidem, deleniti, voluptatem accusamus perferendis.
                     </p>
-                    <a href="#">Web Plans</a>
+                    <a href="#">Web Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <div>
-                    <img src="images/print.jpg">
+                    <img src="images/print.jpg" alt="Photo of six magazine stands on a street">
                     <h3>Print</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga atque quos id harum consectetur assumenda dolorum beatae dolores animi error suscipit, a earum eum quidem, deleniti, voluptatem accusamus perferendis.
                     </p>
-                    <a href="#">Print Plans</a>
+                    <a href="#">Print Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
             </div>
             <div class="vision">
@@ -118,7 +135,8 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit, ut officia, fuga rem voluptatum aut corrupti aspernatur dolorum saepe porro adipisci nisi earum tempore eius quis blanditiis commodi cum.
                     </p>
                 </div>
-            </div>
+            </section>
+            
             <div class="contact">
                 <h2>Contact Us</h2>
                 <div class="form">
@@ -131,7 +149,7 @@
                         <input type="text" name="email">
 
                         <label for="message">Message</label>
-                        <textarea name="message"></textarea>
+                        <textarea id="message" name="message"></textarea>
                         
                         <button type="button">Send</button>
                     </form>
@@ -164,6 +182,5 @@
             <p>&copy; Copyright Three Star Media, 2022</p>
             <p>All images are taken from <a href="http://www.unsplash.com">Unsplash</a></p>
         </footer>
-    </div>
 </body>
 </html>
