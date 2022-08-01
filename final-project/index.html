@@ -47,7 +47,7 @@
              </div>
         </section>
     
-        <!-- Desktop version: A section with an image on the left and text on the right. On mobile will be displayed vertically -->
+        <!-- A section with an image on the left and text on the right. On mobile will be displayed vertically -->
 
         <main>
             <section class="about">
@@ -63,7 +63,7 @@
 
             <!-- A grid displaying two services in one row, and three on the next row. On mobile will be displayed vertically -->
 
-            <section class="services">
+            <section class="services wrapper">
                 <h2>Our Services</h2>
                 <div>
                     <img src="images/digital.jpg" alt="Photo of a person using a laptop and smartphone">
@@ -105,17 +105,22 @@
                     </p>
                     <a href="#">Print Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
-            </div>
-            <div class="vision">
+            </section>
+
+   <!--A background image with text and a call to action  -->
+
+            <section class="vision">
                 <div>
                     <h3>Our Vision</h3>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero eum quos libero tempore rem atque ab repellendus blanditiis ea consectetur natus aliquam placeat, magnam veniam hic consequatur? Doloremque, sapiente. Quis!
                     </p>
-                    <a href="#">Learn More</a>
+                    <a href="#">Learn More <i class="fa-solid fa-caret-right"></i></a>
                 </div>
-            </div>
-            <div class="team">
+            </section>
+
+<!-- A section flex with team members side by side -->
+            <section class="team">
                 <h3>Our Team</h3>
                 <div>
                     <img src="images/john.jpg" alt="John Doe">
@@ -136,17 +141,20 @@
                     </p>
                 </div>
             </section>
-            
+
+            <!-- A contact form and map of the location of the office -->
+
+
             <div class="contact">
                 <h2>Contact Us</h2>
                 <div class="form">
                     <h3>Send us a message</h3>
-                    <form action="">
+                    <form>
                         <label for="fname">Full Name</label>
-                        <input type="text" name="fname">
+                        <input type="text" name="fname" id="fname">
 
                         <label for="email">Email</label>
-                        <input type="text" name="email">
+                        <input type="text" name="email" id="email">
 
                         <label for="message">Message</label>
                         <textarea id="message" name="message"></textarea>
@@ -158,6 +166,9 @@
                     <h3>Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.778950128877!2d-75.7549368!3d45.3499278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1658965043421!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+
+                <!-- A table with the hours of operation of our office -->
+                
                 <div class="hours">
                     <h3>Hours of Operation</h3>
                     <table>
@@ -178,6 +189,8 @@
                 </div>
             </div>
         </main>
+
+        <!-- Footer with copyright information -->
         <footer>
             <p>&copy; Copyright Three Star Media, 2022</p>
             <p>All images are taken from <a href="http://www.unsplash.com">Unsplash</a></p>
