@@ -27,12 +27,10 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <div class="search">
                 <form>
                     <input type="text" placeholder="Search" name="search">
                     <button type="submit">Submit</button>
                 </form>
-            </div>
      </header>
 
      <!-- This section will be a hero image with title and call to action -->
@@ -51,14 +49,16 @@
 
         <main>
             <section class="about">
-                <img src="images/about-us.jpg" alt="Photo of an office space">
-                <h2>About Us</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt nihil officiis soluta delectus quam, aut, necessitatibus quasi cupiditate fugit nulla qui dicta! Iure dignissimos et recusandae distinctio, tempore quod.
-                </p> 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt nihil officiis soluta delectus quam, aut, necessitatibus quasi cupiditate fugit nulla qui dicta! Iure dignissimos et recusandae distinctio, tempore quod.
-                </p>              
+                <div class="wrapper">
+                    <img src="images/about-us.jpg" alt="Photo of an office space">
+                    <h2>About Us</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt nihil officiis soluta delectus quam, aut, necessitatibus quasi cupiditate fugit nulla qui dicta! Iure dignissimos et recusandae distinctio, tempore quod.
+                    </p> 
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt nihil officiis soluta delectus quam, aut, necessitatibus quasi cupiditate fugit nulla qui dicta! Iure dignissimos et recusandae distinctio, tempore quod.
+                    </p>              
+                </div>
             </section>
 
             <!-- A grid displaying two services in one row, and three on the next row. On mobile will be displayed vertically -->
@@ -73,6 +73,7 @@
                     </p>
                     <a href="#">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
+
                 <div>
                     <img src="images/marketing.jpg" alt="Photo of a laptop with a graph">
                     <h3>Marketing</h3>
@@ -81,6 +82,7 @@
                     </p>
                     <a href="#">Marketing Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
+
                 <div>
                     <img src="images/video.jpg" alt="Photo of a person holding a phone with a Youtube logo">
                     <h3>Video Production</h3>
@@ -89,6 +91,7 @@
                     </p>
                     <a href="#">Video Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
+
                 <div>
                     <img src="images/web.jpg" alt="Photo of a phone in a desk with the Instagram app on screen">
                     <h3>Web Development</h3>
@@ -97,6 +100,7 @@
                     </p>
                     <a href="#">Web Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
+
                 <div>
                     <img src="images/print.jpg" alt="Photo of six magazine stands on a street">
                     <h3>Print</h3>
@@ -105,12 +109,13 @@
                     </p>
                     <a href="#">Print Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
+
             </section>
 
    <!--A background image with text and a call to action  -->
 
             <section class="vision">
-                <div>
+                <div class="wrapper">
                     <h3>Our Vision</h3>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero eum quos libero tempore rem atque ab repellendus blanditiis ea consectetur natus aliquam placeat, magnam veniam hic consequatur? Doloremque, sapiente. Quis!
@@ -120,7 +125,7 @@
             </section>
 
 <!-- A section flex with team members side by side -->
-            <section class="team">
+            <section class="team wrapper">
                 <h3>Our Team</h3>
                 <div>
                     <img src="images/john.jpg" alt="John Doe">
@@ -131,6 +136,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit, ut officia, fuga rem voluptatum aut corrupti aspernatur dolorum saepe porro adipisci nisi earum tempore eius quis blanditiis commodi cum.
                     </p>
                 </div>
+
                 <div>
                     <img src="images/bob.jpg" alt="Bob Rite">
                     <h4>Bob Rite</h4>
@@ -140,12 +146,13 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit, ut officia, fuga rem voluptatum aut corrupti aspernatur dolorum saepe porro adipisci nisi earum tempore eius quis blanditiis commodi cum.
                     </p>
                 </div>
+
             </section>
 
             <!-- A contact form and map of the location of the office -->
 
 
-            <div class="contact">
+            <section class="contact">
                 <h2>Contact Us</h2>
                 <div class="form">
                     <h3>Send us a message</h3>
@@ -162,6 +169,7 @@
                         <button type="button">Send</button>
                     </form>
                 </div>
+
                 <div class="location">
                     <h3>Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.778950128877!2d-75.7549368!3d45.3499278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1658965043421!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -187,7 +195,8 @@
                         </tr>
                     </table>
                 </div>
-            </div>
+                
+            </section>
         </main>
 
         <!-- Footer with copyright information -->
