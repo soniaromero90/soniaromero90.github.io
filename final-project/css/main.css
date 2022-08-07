@@ -67,7 +67,8 @@ body {
 }
 
 p {
-    margin-bottom: 30px;
+    margin: 20px;
+
 }
 
 
@@ -140,20 +141,20 @@ h1 {
     color: white;
     font-weight: 900;
     font-size: 4em;
-    padding: 10px;
+    padding: 20px;
     
 }
 
 h2 {
-    font-size: 2em;
-    font-weight: 800;
-    padding: 5px 0;
+    font-size: 3em;
+    font-weight: 900;
+    padding: 0 20px;
 }
 
 h3 {
-    font-size: 1em;
-    font-weight: 800;
-    padding: 5px 0;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 0 20px;
 }
 
 .welcome > p {
@@ -171,7 +172,7 @@ h3 {
 
 .button {
     padding: 15px 15px;
-    margin: 20px 0;
+    margin: 20px;
     background-color: #000;
     color: white;
     text-decoration: none;
@@ -188,9 +189,11 @@ h3 {
 
 .services > div {
     background-color: #ffe6ac;
+    padding-bottom: 30px;
+
 }
 
-.services > img {
+.services > div > img {
     width: 100%;
-
+    height: auto;
 }
