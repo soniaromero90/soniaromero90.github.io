@@ -243,3 +243,27 @@ hr {
     border-top: 2px solid #c78c06;
     margin: 10px;
 }
+
+.form > form > label {
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+.form > form > input[type=text] {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+}
+.form > form > textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.form > form > button[type=button] {
+    background-color: #222;
+    color: #c78c06;
+    margin: 10px 0;
+    font-size: 1.5em;
+}
