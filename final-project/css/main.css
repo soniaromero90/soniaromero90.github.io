@@ -267,3 +267,17 @@ hr {
     margin: 10px 0;
     font-size: 1.5em;
 }
+
+.hours > table {
+    width: 100%;
+    margin: 10px;
+}
+
+.hours > table, th, tr, td {
+    border: #000 1px solid;
+    padding: 10px;
+}
+
+.location > iframe {
+    width: 100%;
+}
