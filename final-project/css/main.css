@@ -61,6 +61,9 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
@@ -130,7 +133,15 @@ header > form > input {
 
 h1 {
     color: white;
+    font-weight: 900;
     font-size: 4em;
+    padding: 5px 0;
+    
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 800;
     padding: 5px 0;
 }
 
@@ -144,4 +155,14 @@ h1 {
     background-color: #c78c06;
     color: #000;
     text-decoration: none;
+}
+
+.about {
+    background-color: #ffe6ac;
+    padding: 20px 0;
+}
+
+.about > .wrapper > img {
+    width: 100%;
+    margin: 10px;
 }
