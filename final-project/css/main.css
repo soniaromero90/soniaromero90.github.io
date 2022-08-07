@@ -197,3 +197,21 @@ h3 {
     width: 100%;
     height: auto;
 }
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 40px 0;
+}
+
+.vision > .wrapper > p, .vision > .wrapper > h3 {
+    color: white;
+}
+
+.vision > .wrapper > .button {
+    border: #c78c06 1px solid;
+}
+
