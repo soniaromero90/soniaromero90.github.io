@@ -157,6 +157,18 @@ h3 {
     padding: 0 20px;
 }
 
+h4 {
+    font-size: 1.7em;
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+h5 {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
 .welcome > p {
     color: white;
     padding: 10px;
@@ -190,6 +202,7 @@ h3 {
 .services > div {
     background-color: #ffe6ac;
     padding-bottom: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -215,3 +228,18 @@ h3 {
     border: #c78c06 1px solid;
 }
 
+.team > div {
+    background-color: #ffe6ac;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.team > div > img {
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    border-top: 2px solid #c78c06;
+    margin: 10px;
+}
