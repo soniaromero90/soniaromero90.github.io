@@ -66,12 +66,6 @@ body {
     line-height: normal;
 }
 
-p {
-    margin: 20px;
-
-}
-
-
 .wrapper {
     margin: 0 auto;
 
@@ -111,7 +105,9 @@ nav > ul li a{
 
 nav > ul a:hover{
     color:#000;
+    background-color: #c78c06;
 }
+
 
 header > form > input {
     width: 90%;
@@ -141,32 +137,27 @@ h1 {
     color: white;
     font-weight: 900;
     font-size: 4em;
-    padding: 20px;
     
 }
 
 h2 {
     font-size: 3em;
     font-weight: 900;
-    padding: 0 20px;
 }
 
 h3 {
     font-size: 2em;
     font-weight: 900;
-    padding: 0 20px;
 }
 
 h4 {
     font-size: 1.7em;
     font-weight: 800;
-    padding: 0 20px;
 }
 
 h5 {
     font-size: 1.2em;
     font-weight: 500;
-    padding: 0 20px;
 }
 
 .welcome > p {
@@ -176,18 +167,20 @@ h5 {
 
 .main-button {
     padding: 15px 15px;
-    margin: 20px;
+    margin: 30px;
     background-color: #c78c06;
     color: #000;
     text-decoration: none;
+    display: block;
 }
 
 .button {
     padding: 15px 15px;
-    margin: 20px;
+    margin: 20px 0;
     background-color: #000;
     color: white;
     text-decoration: none;
+    display: inline-block;
 }
 
 .about {
@@ -201,7 +194,6 @@ h5 {
 
 .services > div {
     background-color: #ffe6ac;
-    padding-bottom: 30px;
     margin-bottom: 20px;
 
 }
@@ -280,4 +272,9 @@ hr {
 
 .location > iframe {
     width: 100%;
+}
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 20px 0;
 }
