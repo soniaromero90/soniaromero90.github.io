@@ -185,8 +185,6 @@ h3 {
 h4 {
     font-size: 1.7em;
     font-weight: 800;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
     font-weight: bold;
 }
 
@@ -263,12 +261,15 @@ h5 {
 .team > div {
     background-color: #ffe6ac;
     padding-bottom: 20px;
-    margin-bottom: 10px;
 }
 
 .team > div > img {
     width: 100%;
     height: auto;
+}
+
+.team > div > p, .team > div > h4, .team > div > h5 {
+    padding-left: 15px;
 }
 
 hr {
@@ -323,6 +324,10 @@ footer {
     background-color: #222;
     color: #c78c06;
     padding: 20px 0;
+}
+
+footer > p {
+    margin-left: 15px;
 }
 
 /* Start of the desktop version */
@@ -449,11 +454,13 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
     justify-content: space-between;
 }
 .contact > div:nth-child(1){
     flex-basis: 50%;
+
+    padding-right: 10px;
 }
 .contact > div:nth-child(3){
     flex-basis: 50%;
