@@ -80,9 +80,9 @@ body {
 }
 
 p {
-    line-height: 1em;
-    margin-top: 0.8em;
-    margin-bottom: 1.5em;
+    line-height: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -163,43 +163,38 @@ nav > ul li:nth-child(1) > a {
 
 h1 {
     color: white;
-    font-size: 4em;
+    font-size: 4rem;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 2.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
 h3 {
-    font-size: 2em;
-    font-weight: 900;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    font-size: 2rem;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 1.7em;
-    font-weight: 800;
+    font-size: 1.7rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 h5 {
-    font-size: 1.2em;
-    font-weight: 500;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    font-size: 1.2rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .welcome-content > p {
     color: white;
-    padding: 10px;
-    line-height: 1em;
+    line-height: 1.5rem;
     margin-bottom: 15px;
 }
 
@@ -229,7 +224,9 @@ h5 {
     width: 100%;
 }
 
-
+.services {
+    margin-bottom: 15px;
+}
 .services > div {
     background-color: #ffe6ac;
 }
@@ -258,6 +255,10 @@ h5 {
     border: #c78c06 1px solid;
 }
 
+.team {
+    margin-bottom: 15px;
+}
+
 .team > div {
     background-color: #ffe6ac;
     padding-bottom: 20px;
@@ -275,6 +276,11 @@ h5 {
 hr {
     border-top: 2px solid #c78c06;
     margin: 10px;
+}
+
+
+.contact {
+    margin-bottom: 15px;
 }
 
 .form > form > label {
@@ -298,7 +304,7 @@ hr {
     background-color: #222;
     color: #c78c06;
     margin: 10px 0;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .hours > table {
