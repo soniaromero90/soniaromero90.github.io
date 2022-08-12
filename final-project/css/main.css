@@ -53,7 +53,7 @@ html {
 
 
 
-/* Start of my CSS */
+/* Start of my CSS CODE */
 
 
 
@@ -62,6 +62,8 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+/* The wrapper contains certain elements and helps center the content */
 
 .wrapper {
     margin: 0 auto;
@@ -85,6 +87,7 @@ p {
     margin-bottom: 1.5rem;
 }
 
+/* The header contains the logo, menu navigation and a search bar displayed vertically on mobile */
 
 header {
     background-color: #222;
@@ -155,6 +158,8 @@ nav > ul li:nth-child(1) > a {
     flex-basis: 10%;
 }
 
+/* This section has a hero image with a welcome message in the centre with a transparency */
+
 .hero {
     width: 100%;
 
@@ -224,6 +229,8 @@ h5 {
     display: inline-block;
 }
 
+/* The about section contains an image and a text with an orange background color */
+
 .about {
     background-color: #ffe6ac;
     padding-bottom: 10px;
@@ -235,6 +242,8 @@ h5 {
     width: 100%;
     margin-bottom: 10px;
 }
+
+/* Services is divided in different sections. Each section contains an image and the text below. */
 
 .services {
     margin-bottom: 10px;
@@ -249,6 +258,8 @@ h5 {
     height: auto;
     margin-bottom: 10px;
 }
+
+/* Vision section has a background image and text inside */
 
 .vision {
     background-image: url(../images/vision.jpg);
@@ -267,6 +278,8 @@ h5 {
 .vision > .wrapper > .button {
     border: #c78c06 1px solid;
 }
+
+/* The team section has an image of each member and below there is the content */
 
 .team {
     margin-bottom: 15px;
@@ -292,6 +305,7 @@ hr {
     margin: 10px;
 }
 
+/* The contact section has 3 main parts: the contact form, the hours of operation table and below a map of the location. */
 
 .contact {
     margin-bottom: 15px;
@@ -317,12 +331,16 @@ hr {
     margin: 10px 0;
 }
 
+/* The send button has a dark background with orange text */
+
 .form > form > button[type=button] {
     background-color: #222;
     color: #c78c06;
     margin: 10px 0;
     font-size: 1.5rem;
 }
+
+/* Table contains the hours of operation. The title row is orange */
 
 .hours > table {
     width: 100%;
@@ -336,6 +354,8 @@ hr {
 th {
     background-color: #ffe6ac;
 }
+
+/* The location is on google maps */
 
 .location > iframe {
     width: 100%;
@@ -354,6 +374,8 @@ footer {
 
 @media screen and (min-width: 760px){
 
+    /* The header collapses horizontally. This includes the logo, menu and search bar */
+
     .header-content {
         background-color: #222;
     }
@@ -367,6 +389,9 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+
+/* The navigation menu is displayed horizontally on desktop */
+
     nav > ul {
         display: flex;
         justify-content: space-between;
@@ -385,6 +410,8 @@ footer {
         color: #000;
     }
 
+/* The about section is displayed with the image on the right side and text on the left */
+
     .about-content {
         display: flex;
         flex-direction: row;
@@ -395,6 +422,8 @@ footer {
         display: block;
         width: 100%;
     }
+
+    /* Services section is displayed in 2 rows. First row with 2 services and second row with 3 services. Each service has an image and text below it */
 
     .services > div > img {
         max-width: 100%;
@@ -432,6 +461,8 @@ footer {
         grid-column: 5 / 7;
         grid-row: 2 / 3;
     }
+
+    /* Team section is displayed in 2 columns. The first member has an image on the left and te information on the right. For the second member the picture is on the left and information on the right */
     
     .team {
         display: grid;
@@ -466,6 +497,8 @@ footer {
 
         padding-left: 10px;
     }
+
+/* The contact section is divided in 2 rows. First row has the contact form on the left and location is on the right. The second row is the table of hours */     
 
 .contact {
     display: flex;
