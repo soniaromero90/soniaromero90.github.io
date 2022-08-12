@@ -309,7 +309,6 @@ hr {
 
 .hours > table {
     width: 100%;
-    margin: 10px;
 }
 
 .hours > table, th, tr, td {
@@ -332,9 +331,6 @@ footer {
     padding: 20px 0;
 }
 
-footer > p {
-    margin-left: 15px;
-}
 
 /* Start of the desktop version */
 
